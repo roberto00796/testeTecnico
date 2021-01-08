@@ -43,7 +43,7 @@
                             }
                             else if (!preg_match('/^[1-9][0-9]*$/', $n)) {
                                 $alert = "danger";
-                                $msg = "O valor n&atilde;o &eacute; válido";
+                                $msg = "O valor n&atilde;o &eacute; v&aacute;lido";
                             }
 
                             else if (!empty($arrayNumeros)) {
